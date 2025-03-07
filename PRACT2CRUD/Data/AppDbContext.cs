@@ -15,5 +15,6 @@ namespace PRACT2CRUD.Data
         }
 
         public DbSet<Asignaturas> Asignaturas { get; set; } = default!;
+        public DbSet<PRACT2CRUD.Models.Estudiantes> Estudiantes { get; set; } = default!;
     }
 }
